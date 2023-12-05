@@ -27,13 +27,14 @@ const TechStack = () => {
       fontWeight: "bold",
      
     }}>
-      <h1 style={{marginTop:"200px"}}>
+      <h1 style={{marginTop:"200px", fontSize:"2rem"}}>
         My{" "}
         <span className="techstack" 
           style={{
             color: "#32CD30",
              fontFamily: "Fira Code",
             fontWeight: "bold",
+            fontSize:"2rem",
             marginTop:"20px",
            
           }}
