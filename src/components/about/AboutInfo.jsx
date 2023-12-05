@@ -17,8 +17,8 @@ const AboutInfo = () => {
       >
         <span style={{ color: "#32CD30" }}>About</span> Me
       </h1>
-      <div className="about-parent" style={{fontSize:"2.5rem"}}>
-        <div className="about-text" style={{fontSize:"2.5rem"}}>
+      <div className="about-parent" style={{fontSize:"2rem"}}>
+        <div className="about-text" style={{fontSize:"2rem"}}>
           <p style={{ marginLeft:"15%",fontWeight:"bold" }}>
             Hi people, I am{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
