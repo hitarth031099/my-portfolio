@@ -9,7 +9,7 @@ const AboutInfo = () => {
     <div className="about" style={{fontWeight:"bold"}}>
       <h1
         style={{
-          marginTop: "3rem",
+          marginTop: "10px",
           fontFamily: "Fira Code",
           fontSize: "3.5rem",
           fontWeight: "bold",
@@ -18,7 +18,7 @@ const AboutInfo = () => {
         <span style={{ color: "#32CD30" }}>About</span> Me
       </h1>
       <div className="about-parent">
-        <div className="about-text" style={{marginBottom:"10px",fontSize: "2.5rem"}}>
+        <div className="about-text" style={{marginBottom:"10px"}}>
           <p style={{ marginLeft:"15%",fontWeight:"bold" }}>
             Hi people, I am{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
