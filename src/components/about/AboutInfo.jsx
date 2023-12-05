@@ -18,8 +18,8 @@ const AboutInfo = () => {
         <span style={{ color: "#32CD30" }}>About</span> Me
       </h1>
       <div className="about-parent">
-        <div className="about-text">
-          <p style={{ textAlign: "justify" }}>
+        <div className="about-text" style={{marginBottom:"10px"}}>
+          <p style={{ marginLeft:"20%" }}>
             Hi people, I am{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               Hitarth Patel
@@ -31,22 +31,22 @@ const AboutInfo = () => {
             </span>{" "}
             and currently I'm a graduate student at{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              Stevens Institute of Technology , New Jersey
+              Stevens Institute of Technology, New Jersey
             </span>
             .
           </p>
           <br></br>
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ marginLeft:"20%",textAlign:"justify"}}>
             Apart from developement, some things I like are<br></br>
             <br></br>
             <ul>
               <li>
-                <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
+                <BsFillArrowRightSquareFill style={{ display: "inline"}} />{" "}
                 Watching Cricket
               </li>
               <li>
                 <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
-              Cooking
+                Cooking
               </li>
               <li>
                 <BsFillArrowRightSquareFill style={{ display: "inline" }} />{" "}
@@ -56,6 +56,7 @@ const AboutInfo = () => {
           </p>
         </div>
         <img
+        
           className="rounded about-image"
           src={codeImage}
           alt="Extra large avatar"

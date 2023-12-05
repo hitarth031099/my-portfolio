@@ -8,7 +8,7 @@ import phishing from "../../assets/phishing.svg";
 const projectData = [
     {
         title : "GUI Based Image Optimizing System",
-        description : "Optimizes an image in Size without compr",
+        description : "Optimizes an image in Size without comprosmising the quality of the image",
         image : transferMusic,
         projectLink : "https://github.com/hitarth031099/GUI-based-Image-optimizing-System",
     },

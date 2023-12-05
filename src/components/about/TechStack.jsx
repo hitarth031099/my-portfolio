@@ -20,15 +20,22 @@ const TechStack = () => {
   },[]);
 
   return (
-    <div className="techstack">
-      <h1>
+    <div className="techstack"  style={{
+      color: "white",
+    marginTop:"auto",
+      fontFamily: "Fira Code",
+      fontWeight: "bold",
+     
+    }}>
+      <h1 style={{marginTop:"auto"}}>
         My{" "}
-        <span
+        <span className="techstack" 
           style={{
             color: "#32CD30",
-            marginTop: "3rem",
-            fontFamily: "Fira Code",
+             fontFamily: "Fira Code",
             fontWeight: "bold",
+            marginTop:"auto",
+           
           }}
         >
           SkillSet
@@ -39,7 +46,7 @@ const TechStack = () => {
           <Card raised className="item">
             {" "}
             <CgCPlusPlus
-              style={{ width: "100%", height: "auto", color: "black" }}
+              style={{ width: "auto", height: "auto", color: "black" }}
             />{" "}
           </Card>
           <Card raised className="item">

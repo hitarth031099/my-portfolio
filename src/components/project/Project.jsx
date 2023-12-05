@@ -23,7 +23,7 @@ const Project = () => {
         My Recent <span style={{ color: "#32CD30" }}>Projects</span>
       </h1>
       <p>These are some of the projects that I have been working on my own time!!</p>
-      <div className="project-cards">
+      <div className="project-cards" style={{width:"70%"}}>
         <Card.Group itemsPerRow={width > 786 ? 3 : 1}>
           {projectData.map((data, index) => {
             return <SingleProjectCard
