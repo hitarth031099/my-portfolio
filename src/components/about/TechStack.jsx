@@ -41,7 +41,7 @@ const TechStack = () => {
           SkillSet
         </span>
       </h1>
-      <div className="techstack-row" style={{marginTop:"50px"}}>
+      <div className="techstack-row" >
         <Card.Group itemsPerRow={width > 768 ? 5 : 2}>
           <Card raised className="item">
             {" "}
