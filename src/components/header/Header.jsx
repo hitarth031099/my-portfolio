@@ -22,7 +22,7 @@ const pages = [
   { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
-  { text: "Fork Project", href: "https://github.com/hitarth031099" },
+  { text: "Fork Project", href: "https://github.com/hitarth031099/my-portfolio" },
 ];
 const pageIcons = [
   HomeRoundedIcon,
