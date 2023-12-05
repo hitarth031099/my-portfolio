@@ -19,7 +19,7 @@ const AboutInfo = () => {
       </h1>
       <div className="about-parent">
         <div className="about-text" style={{marginBottom:"10px"}}>
-          <p style={{ marginLeft:"15%" }}>
+          <p style={{ marginLeft:"15%",fontWeight:"bold" }}>
             Hi people, I am{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               Hitarth Patel
