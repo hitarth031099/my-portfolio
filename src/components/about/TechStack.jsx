@@ -22,26 +22,26 @@ const TechStack = () => {
   return (
     <div className="techstack"  style={{
       color: "white",
-    marginTop:"auto",
+    marginTop:"20px",
       fontFamily: "Fira Code",
       fontWeight: "bold",
      
     }}>
-      <h1 style={{marginTop:"auto"}}>
+      <h1 style={{marginTop:"200px"}}>
         My{" "}
         <span className="techstack" 
           style={{
             color: "#32CD30",
              fontFamily: "Fira Code",
             fontWeight: "bold",
-            marginTop:"auto",
+            marginTop:"20px",
            
           }}
         >
           SkillSet
         </span>
       </h1>
-      <div className="techstack-row">
+      <div className="techstack-row" style={{marginTop:"50px"}}>
         <Card.Group itemsPerRow={width > 768 ? 5 : 2}>
           <Card raised className="item">
             {" "}

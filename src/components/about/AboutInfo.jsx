@@ -31,7 +31,7 @@ const AboutInfo = () => {
             </span>{" "}
             and currently I'm a graduate student at{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              Stevens Institute of Technology, New Jersey
+              Stevens Institute of Technology , New Jersey
             </span>
             .
           </p>
@@ -56,7 +56,6 @@ const AboutInfo = () => {
           </p>
         </div>
         <img
-        
           className="rounded about-image"
           src={codeImage}
           alt="Extra large avatar"
