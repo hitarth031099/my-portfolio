@@ -9,7 +9,7 @@ const AboutInfo = () => {
     <div className="about" style={{fontWeight:"bold"}}>
       <h1
         style={{
-          marginTop: "10px",
+          marginTop: "3rem",
           fontFamily: "Fira Code",
           fontSize: "3.5rem",
           fontWeight: "bold",
