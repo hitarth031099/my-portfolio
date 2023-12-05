@@ -5,8 +5,7 @@ My portfolio built using React JS
 
 ## Demo
 
-https://my-portfolio-abhinav2011.vercel.app/
-
+https://hitarth-patel-portfolio.vercel.app/
 ## Run Locally
 
 Clone the project
