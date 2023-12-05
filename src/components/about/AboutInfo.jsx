@@ -6,7 +6,7 @@ import GitHubCalendar from "react-github-calendar";
 
 const AboutInfo = () => {
   return (
-    <div className="about">
+    <div className="about" style={{fontWeight:"bold"}}>
       <h1
         style={{
           marginTop: "3rem",
