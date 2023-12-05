@@ -19,7 +19,7 @@ const AboutInfo = () => {
       </h1>
       <div className="about-parent">
         <div className="about-text" style={{marginBottom:"10px"}}>
-          <p style={{ marginLeft:"20%" }}>
+          <p style={{ marginLeft:"15%" }}>
             Hi people, I am{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
               Hitarth Patel
@@ -31,7 +31,7 @@ const AboutInfo = () => {
             </span>{" "}
             and currently I'm a graduate student at{" "}
             <span style={{ color: "#32CD30", fontWeight: "bold" }}>
-              Stevens Institute of Technology , New Jersey
+              Stevens Institute of Technology, New Jersey
             </span>
             .
           </p>
